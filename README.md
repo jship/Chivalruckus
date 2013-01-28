@@ -9,9 +9,9 @@ double-click one of the BAT files to spam away.  Make sure to close
 the command prompt when you are doing anything else besides playing
 Chivalry (including text chat in the game!)
 
-If you would prefer to
-run the script from a command prompt, open one up, navigate to the
-project folder, and type:
+A BAT file is provided for every message in the game, but if you would
+prefer to run the script from a command prompt, open one up, navigate to
+the project folder, and type:
 
 ```bat
 CSCRIPT Chivalruckus.js /message:<message_goes_here>
