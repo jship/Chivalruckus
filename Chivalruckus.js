@@ -45,7 +45,7 @@ jship.KeySpammer.prototype.sendMessage = function()
 
     if (voiceMessageKey)
     {
-        WScript.Sleep(300);
+        WScript.Sleep(500);
         this.wshShell.SendKeys(voiceMessageKey);
     }
 };
@@ -54,7 +54,7 @@ jship.KeySpammer.prototype.run = function()
 {
     while (true)
     {
-        WScript.Sleep(500);
+        WScript.Sleep(750);
         this.sendMessage();
     }
 };
